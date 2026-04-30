@@ -6,22 +6,27 @@
 
 #include <stdio.h>
 
+// Fungsi penjumlahan
 float add(float a, float b) {
     return a + b;
 }
+// Fungsi pengurangan
 float sub(float a, float b) {
     return a - b;
 }
+// Fungsi perkalian
 float mul(float a, float b) {
     return a * b;
 }
+// Fungsi pembagian
 float div(float a, float b) {
     if (b == 0) {
-        printf("Error: Tidak bisa dibagi dengan nol!\n");
+        printf("Error: Tidak bisa dibagi dengan nol!\n"); // penyebut tidak valid untuk angka 0
         return 0;
     }
     return a / b;
 }
+
 int main (){
     float a, b, hasil;
     char op;
@@ -43,6 +48,8 @@ int main (){
         printf("Operator tidak valid\n");
         return 0;
     }
+
+    // Output
     printf("Hasil: %.2f\n", hasil);
     return 0;
 }
