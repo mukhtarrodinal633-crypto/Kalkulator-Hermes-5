@@ -30,12 +30,13 @@ float div(float a, float b) {
 int main (){
     float a, b, hasil;
     char op;
-    printf("Masukkan angka pertama: ");
+    printf("Masukkan angka pertama: "); //memasukkan angka bebas untuk di + - * /
     scanf("%f", &a);
     printf("Masukkan operator (+ - * /): ");
     scanf(" %c", &op);
-    printf("Masukkan angka kedua: ");
+    printf("Masukkan angka kedua: "); //
     scanf("%f", &b);
+    //Untuk menentukan pilihan mana yang diinginkan dari + - * /
     if (op == '+') {
         hasil = add(a, b);
     } else if (op == '-') {
