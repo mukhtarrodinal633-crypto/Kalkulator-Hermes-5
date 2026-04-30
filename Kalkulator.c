@@ -16,18 +16,15 @@ float div(float a, float b) {
     }
     return a / b;
 }
-
 int main (){
     float a, b, hasil;
     char op;
-
     printf("Masukkan angka pertama: ");
     scanf("%f", &a);
     printf("Masukkan operator (+ - * /): ");
     scanf(" %c", &op);
     printf("Masukkan angka kedua: ");
     scanf("%f", &b);
-
     if (op == '+') {
         hasil = add(a, b);
     } else if (op == '-') {
@@ -40,9 +37,6 @@ int main (){
         printf("Operator tidak valid\n");
         return 0;
     }
-
     printf("Hasil: %.2f\n", hasil);
-
-    return 0;
     return 0;
 }
