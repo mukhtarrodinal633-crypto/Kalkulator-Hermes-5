@@ -1,3 +1,9 @@
+//Kelompok 5 HERMES
+//Rodinal Mukhtar Aulya : 2506553263
+//cristian              : 2506550822
+//Thoriq Muhammad Fatih : 2506549410
+//Haikel Zaki Nurfaaiz  : 2506533394      
+
 #include <stdio.h>
 
 float add(float a, float b) {
