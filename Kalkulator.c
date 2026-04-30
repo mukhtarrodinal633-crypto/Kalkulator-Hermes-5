@@ -44,5 +44,4 @@ int main (){
     printf("Hasil: %.2f\n", hasil);
 
     return 0;
-    return 0;
 }
